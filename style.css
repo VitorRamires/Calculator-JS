@@ -1,5 +1,8 @@
 
-
+body{
+    background:rgba(204, 204, 204, 0.918);
+    font-family: 'Kanit', sans-serif;
+}
 .numeros{
     width: 100%;
     height: 200px;
@@ -29,12 +32,19 @@
 .numeros input{
     width: 100%;
     border:0;
-    border-bottom:2px solid #ccc;
+    border-bottom:2px solid rgb(216, 82, 41);
     outline: 0;
     padding-top:15px;
+    height: 35px;
+    border-radius: 20px;
+    padding:10px;
     padding-bottom:10px;
+    font-size:22px;
 }
 
+.numeros p{
+    color:black;
+}
 /***********************************************************************/
 
 .resultados{
@@ -46,7 +56,7 @@
 .resultados{
     margin:0 auto;
     width: 100%;
-    color:rgb(145, 141, 141);
+    color:rgb(20, 20, 20);
 }
 
 .resultados .input{
@@ -55,7 +65,10 @@
     height: 55px;
     width: 33.3%;
     margin-top:30px;
+    margin-bottom:30px;
 }
+
+
 
 .resultados p{
     margin-left:10px;
@@ -65,8 +78,11 @@
     width: 85%;
     height: 20px;
     border:0;
-    border-bottom:1px solid #ccc;
+    border-bottom:1px solid rgb(216, 82, 41);
     outline:0;
+    height: 25px;
+    padding:7px;
+    border-radius: 10px;
     padding-bottom:7px;
     font-size: 17px;
 }
@@ -78,9 +94,16 @@ input[type="button"]{
     width: 200px;
     height: 50px;
     border-radius: 20px;
-    border:1px solid black;
+    border:0;
+    color:white;
+    font-weight: 17px;
     outline:0;
     cursor: pointer;
+    background:rgb(216, 82, 41);
+}
+
+input[type="button"]:hover{
+    background:rgb(170, 59, 26);
 }
 
 h2{
