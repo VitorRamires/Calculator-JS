@@ -1,8 +1,36 @@
 
 body{
-    background:rgba(204, 204, 204, 0.918);
     font-family: 'Kanit', sans-serif;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background:rgb(60, 98, 221);
+    animation: fundo 10s infinite;
+    font-weight: bold;
 }
+
+@keyframes fundo{
+    0%{
+        background:rgb(60, 98, 221);
+        color:white;
+    }
+
+    50%{
+        background:rgb(30, 48, 105);  
+        color:white;
+    }
+
+    70%{
+        background:rgb(30, 48, 105); 
+        color:white;
+    }
+    
+    100%{
+        background:rgb(60, 98, 221); 
+        color:white;
+    }
+}
+
 
 
 .numeros{
@@ -21,10 +49,6 @@ body{
     border-bottom:2px solid #D8532A;
     outline:none;
     padding-left:15px;
-}
-
-.A input:focus, .B input:focus{
-    background:rgba(226, 223, 223, 0.603);
 }
 
 input[type="button"]{
@@ -71,6 +95,7 @@ width: 100%;
 border-bottom: 2px solid #D8532A;
 padding-left:10px;
 outline:none;
+background:white;
 }
 
 @media screen and (max-width:785px){
