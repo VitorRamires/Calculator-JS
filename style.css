@@ -170,7 +170,8 @@ color:rgb(107, 104, 104);
 
     .resultados .input{
         float:none;
-        width: 100%;
+        width: 80%;
+        margin:0 auto;
     }
 
     input[type="button"]{
@@ -178,7 +179,18 @@ color:rgb(107, 104, 104);
     }
     .começando{
         height: 100%;
+        justify-content: flex-start;
     }
+
+    .começando h2{
+        margin:200px 15px 0 15px;
+    }
+
+    .começando h1{
+        margin:0 15px 0 15px;
+    }
+
+
     #começar:checked ~ .começando{
         height: 100%;
     }
